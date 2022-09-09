@@ -14,9 +14,7 @@
 // const images = require.context('./images', true)
 // const imagePath = (name) => images(name, true)
 
-console.log('test')
-const el = document.getElementById('homes');
-el.innerHTML = '<p>Hello world</p>';
+console.log('application.js running')
 
 var componentRequireContext = require.context("components", true);
 var ReactRailsUJS = require("react_ujs");
