@@ -17,3 +17,7 @@
 console.log('test')
 const el = document.getElementById('homes');
 el.innerHTML = '<p>Hello world</p>';
+
+var componentRequireContext = require.context("components", true);
+var ReactRailsUJS = require("react_ujs");
+ReactRailsUJS.useContext(componentRequireContext);
